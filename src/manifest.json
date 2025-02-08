@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+  "name": "AI Summarizer",
+  "version": "1.0",
+  "description": "An extension that summarizes the content of a website using AI.",
+  "permissions": [
+    "activeTab",
+    "https://api.openai.com/"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "applications": {
+    "gecko": {
+      "id": "ai-summarizer@example.com",
+      "strict_min_version": "42.0"
+    }
+  }
+}

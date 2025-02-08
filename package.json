@@ -1,0 +1,28 @@
+{
+  "name": "my-browser-extension",
+  "version": "1.0.0",
+  "description": "A simple web browser extension.",
+  "main": "src/background.js",
+  "scripts": {
+    "build": "echo 'Building the extension...'",
+    "build:chrome": "webpack --config webpack.chrome.config.js",
+    "build:safari": "xcrun safari-web-extension-converter src --project-location ./safari-extension --app-name 'My Safari Extension'",
+    "test": "echo 'Running tests...'",
+    "lint": "echo 'Linting the code...'"
+  },
+  "keywords": [
+    "browser",
+    "extension",
+    "web"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0"
+  }
+}
