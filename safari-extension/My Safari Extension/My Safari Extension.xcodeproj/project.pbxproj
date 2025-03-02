@@ -1,0 +1,938 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4348BB72D5713180097DA35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4348BB62D5713180097DA35 /* AppDelegate.swift */; };
+		B4348BB92D5713180097DA35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4348BB82D5713180097DA35 /* SceneDelegate.swift */; };
+		B4348BBC2D5713180097DA35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4348BBA2D5713180097DA35 /* LaunchScreen.storyboard */; };
+		B4348BBF2D5713180097DA35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4348BBD2D5713180097DA35 /* Main.storyboard */; };
+		B4348BC82D5713180097DA35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4348BC72D5713180097DA35 /* AppDelegate.swift */; };
+		B4348BCB2D5713180097DA35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4348BC92D5713180097DA35 /* Main.storyboard */; };
+		B4348BD32D5713180097DA35 /* My Safari Extension Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B4348BD22D5713180097DA35 /* My Safari Extension Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B4348BDD2D5713180097DA35 /* My Safari Extension Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B4348BDC2D5713180097DA35 /* My Safari Extension Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B4348BE32D5713180097DA35 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = B4348BA62D5713140097DA35 /* Main.html */; };
+		B4348BE42D5713180097DA35 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = B4348BA62D5713140097DA35 /* Main.html */; };
+		B4348BE52D5713180097DA35 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4348BA82D5713140097DA35 /* Icon.png */; };
+		B4348BE62D5713180097DA35 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4348BA82D5713140097DA35 /* Icon.png */; };
+		B4348BE72D5713180097DA35 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = B4348BA92D5713140097DA35 /* Style.css */; };
+		B4348BE82D5713180097DA35 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = B4348BA92D5713140097DA35 /* Style.css */; };
+		B4348BE92D5713180097DA35 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = B4348BAA2D5713140097DA35 /* Script.js */; };
+		B4348BEA2D5713180097DA35 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = B4348BAA2D5713140097DA35 /* Script.js */; };
+		B4348BEB2D5713180097DA35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4348BAB2D5713140097DA35 /* ViewController.swift */; };
+		B4348BEC2D5713180097DA35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4348BAB2D5713140097DA35 /* ViewController.swift */; };
+		B4348BED2D5713180097DA35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4348BAC2D5713180097DA35 /* Assets.xcassets */; };
+		B4348BEE2D5713180097DA35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4348BAC2D5713180097DA35 /* Assets.xcassets */; };
+		B4348BEF2D5713180097DA35 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4348BAE2D5713180097DA35 /* SafariWebExtensionHandler.swift */; };
+		B4348BF02D5713180097DA35 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4348BAE2D5713180097DA35 /* SafariWebExtensionHandler.swift */; };
+		B4348C052D5713180097DA35 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = B4348C022D5713180097DA35 /* background.js */; };
+		B4348C062D5713180097DA35 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B4348C032D5713180097DA35 /* manifest.json */; };
+		B4348C072D5713180097DA35 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = B4348C042D5713180097DA35 /* content.js */; };
+		B4348C082D5713180097DA35 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = B4348C022D5713180097DA35 /* background.js */; };
+		B4348C092D5713180097DA35 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B4348C032D5713180097DA35 /* manifest.json */; };
+		B4348C0A2D5713180097DA35 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = B4348C042D5713180097DA35 /* content.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4348BD42D5713180097DA35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4348BA02D5713140097DA35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4348BD12D5713180097DA35;
+			remoteInfo = "My Safari Extension Extension (iOS)";
+		};
+		B4348BDE2D5713180097DA35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4348BA02D5713140097DA35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4348BDB2D5713180097DA35;
+			remoteInfo = "My Safari Extension Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B4348BF62D5713180097DA35 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B4348BD32D5713180097DA35 /* My Safari Extension Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4348BFD2D5713180097DA35 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B4348BDD2D5713180097DA35 /* My Safari Extension Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B4348BA72D5713140097DA35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		B4348BA82D5713140097DA35 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		B4348BA92D5713140097DA35 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		B4348BAA2D5713140097DA35 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		B4348BAB2D5713140097DA35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B4348BAC2D5713180097DA35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4348BAE2D5713180097DA35 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		B4348BB32D5713180097DA35 /* My Safari Extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Safari Extension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4348BB62D5713180097DA35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4348BB82D5713180097DA35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B4348BBB2D5713180097DA35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4348BBE2D5713180097DA35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4348BC02D5713180097DA35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4348BC52D5713180097DA35 /* My Safari Extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Safari Extension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4348BC72D5713180097DA35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4348BCA2D5713180097DA35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4348BCC2D5713180097DA35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4348BCD2D5713180097DA35 /* My Safari Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "My Safari Extension.entitlements"; sourceTree = "<group>"; };
+		B4348BD22D5713180097DA35 /* My Safari Extension Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "My Safari Extension Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4348BD72D5713180097DA35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4348BDC2D5713180097DA35 /* My Safari Extension Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "My Safari Extension Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4348BE12D5713180097DA35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4348BE22D5713180097DA35 /* My Safari Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "My Safari Extension.entitlements"; sourceTree = "<group>"; };
+		B4348C022D5713180097DA35 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../../src/background.js; sourceTree = "<group>"; };
+		B4348C032D5713180097DA35 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../../src/manifest.json; sourceTree = "<group>"; };
+		B4348C042D5713180097DA35 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = ../../../src/content.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4348BB02D5713180097DA35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4348BC22D5713180097DA35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4348BCF2D5713180097DA35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4348BD92D5713180097DA35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4348B9F2D5713140097DA35 = {
+			isa = PBXGroup;
+			children = (
+				B4348BA42D5713140097DA35 /* Shared (App) */,
+				B4348BAD2D5713180097DA35 /* Shared (Extension) */,
+				B4348BB52D5713180097DA35 /* iOS (App) */,
+				B4348BC62D5713180097DA35 /* macOS (App) */,
+				B4348BD62D5713180097DA35 /* iOS (Extension) */,
+				B4348BE02D5713180097DA35 /* macOS (Extension) */,
+				B4348BB42D5713180097DA35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4348BA42D5713140097DA35 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				B4348BAB2D5713140097DA35 /* ViewController.swift */,
+				B4348BAC2D5713180097DA35 /* Assets.xcassets */,
+				B4348BA52D5713140097DA35 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		B4348BA52D5713140097DA35 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4348BA62D5713140097DA35 /* Main.html */,
+				B4348BA82D5713140097DA35 /* Icon.png */,
+				B4348BA92D5713140097DA35 /* Style.css */,
+				B4348BAA2D5713140097DA35 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B4348BAD2D5713180097DA35 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				B4348C012D5713180097DA35 /* Resources */,
+				B4348BAE2D5713180097DA35 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		B4348BB42D5713180097DA35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4348BB32D5713180097DA35 /* My Safari Extension.app */,
+				B4348BC52D5713180097DA35 /* My Safari Extension.app */,
+				B4348BD22D5713180097DA35 /* My Safari Extension Extension.appex */,
+				B4348BDC2D5713180097DA35 /* My Safari Extension Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4348BB52D5713180097DA35 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				B4348BB62D5713180097DA35 /* AppDelegate.swift */,
+				B4348BB82D5713180097DA35 /* SceneDelegate.swift */,
+				B4348BBA2D5713180097DA35 /* LaunchScreen.storyboard */,
+				B4348BBD2D5713180097DA35 /* Main.storyboard */,
+				B4348BC02D5713180097DA35 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		B4348BC62D5713180097DA35 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				B4348BC72D5713180097DA35 /* AppDelegate.swift */,
+				B4348BC92D5713180097DA35 /* Main.storyboard */,
+				B4348BCC2D5713180097DA35 /* Info.plist */,
+				B4348BCD2D5713180097DA35 /* My Safari Extension.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		B4348BD62D5713180097DA35 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				B4348BD72D5713180097DA35 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		B4348BE02D5713180097DA35 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				B4348BE12D5713180097DA35 /* Info.plist */,
+				B4348BE22D5713180097DA35 /* My Safari Extension.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		B4348C012D5713180097DA35 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4348C022D5713180097DA35 /* background.js */,
+				B4348C032D5713180097DA35 /* manifest.json */,
+				B4348C042D5713180097DA35 /* content.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4348BB22D5713180097DA35 /* My Safari Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4348BF72D5713180097DA35 /* Build configuration list for PBXNativeTarget "My Safari Extension (iOS)" */;
+			buildPhases = (
+				B4348BAF2D5713180097DA35 /* Sources */,
+				B4348BB02D5713180097DA35 /* Frameworks */,
+				B4348BB12D5713180097DA35 /* Resources */,
+				B4348BF62D5713180097DA35 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4348BD52D5713180097DA35 /* PBXTargetDependency */,
+			);
+			name = "My Safari Extension (iOS)";
+			productName = "My Safari Extension (iOS)";
+			productReference = B4348BB32D5713180097DA35 /* My Safari Extension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4348BC42D5713180097DA35 /* My Safari Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4348BFE2D5713180097DA35 /* Build configuration list for PBXNativeTarget "My Safari Extension (macOS)" */;
+			buildPhases = (
+				B4348BC12D5713180097DA35 /* Sources */,
+				B4348BC22D5713180097DA35 /* Frameworks */,
+				B4348BC32D5713180097DA35 /* Resources */,
+				B4348BFD2D5713180097DA35 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4348BDF2D5713180097DA35 /* PBXTargetDependency */,
+			);
+			name = "My Safari Extension (macOS)";
+			productName = "My Safari Extension (macOS)";
+			productReference = B4348BC52D5713180097DA35 /* My Safari Extension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4348BD12D5713180097DA35 /* My Safari Extension Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4348BF32D5713180097DA35 /* Build configuration list for PBXNativeTarget "My Safari Extension Extension (iOS)" */;
+			buildPhases = (
+				B4348BCE2D5713180097DA35 /* Sources */,
+				B4348BCF2D5713180097DA35 /* Frameworks */,
+				B4348BD02D5713180097DA35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Safari Extension Extension (iOS)";
+			productName = "My Safari Extension Extension (iOS)";
+			productReference = B4348BD22D5713180097DA35 /* My Safari Extension Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B4348BDB2D5713180097DA35 /* My Safari Extension Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4348BFA2D5713180097DA35 /* Build configuration list for PBXNativeTarget "My Safari Extension Extension (macOS)" */;
+			buildPhases = (
+				B4348BD82D5713180097DA35 /* Sources */,
+				B4348BD92D5713180097DA35 /* Frameworks */,
+				B4348BDA2D5713180097DA35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Safari Extension Extension (macOS)";
+			productName = "My Safari Extension Extension (macOS)";
+			productReference = B4348BDC2D5713180097DA35 /* My Safari Extension Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4348BA02D5713140097DA35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					B4348BB22D5713180097DA35 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					B4348BC42D5713180097DA35 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					B4348BD12D5713180097DA35 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					B4348BDB2D5713180097DA35 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = B4348BA32D5713140097DA35 /* Build configuration list for PBXProject "My Safari Extension" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4348B9F2D5713140097DA35;
+			productRefGroup = B4348BB42D5713180097DA35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4348BB22D5713180097DA35 /* My Safari Extension (iOS) */,
+				B4348BC42D5713180097DA35 /* My Safari Extension (macOS) */,
+				B4348BD12D5713180097DA35 /* My Safari Extension Extension (iOS) */,
+				B4348BDB2D5713180097DA35 /* My Safari Extension Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4348BB12D5713180097DA35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4348BE52D5713180097DA35 /* Icon.png in Resources */,
+				B4348BBC2D5713180097DA35 /* LaunchScreen.storyboard in Resources */,
+				B4348BE32D5713180097DA35 /* Main.html in Resources */,
+				B4348BE92D5713180097DA35 /* Script.js in Resources */,
+				B4348BED2D5713180097DA35 /* Assets.xcassets in Resources */,
+				B4348BBF2D5713180097DA35 /* Main.storyboard in Resources */,
+				B4348BE72D5713180097DA35 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4348BC32D5713180097DA35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4348BE62D5713180097DA35 /* Icon.png in Resources */,
+				B4348BE82D5713180097DA35 /* Style.css in Resources */,
+				B4348BCB2D5713180097DA35 /* Main.storyboard in Resources */,
+				B4348BEA2D5713180097DA35 /* Script.js in Resources */,
+				B4348BEE2D5713180097DA35 /* Assets.xcassets in Resources */,
+				B4348BE42D5713180097DA35 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4348BD02D5713180097DA35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4348C0A2D5713180097DA35 /* content.js in Resources */,
+				B4348C092D5713180097DA35 /* manifest.json in Resources */,
+				B4348C082D5713180097DA35 /* background.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4348BDA2D5713180097DA35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4348C072D5713180097DA35 /* content.js in Resources */,
+				B4348C062D5713180097DA35 /* manifest.json in Resources */,
+				B4348C052D5713180097DA35 /* background.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4348BAF2D5713180097DA35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4348BEB2D5713180097DA35 /* ViewController.swift in Sources */,
+				B4348BB72D5713180097DA35 /* AppDelegate.swift in Sources */,
+				B4348BB92D5713180097DA35 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4348BC12D5713180097DA35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4348BEC2D5713180097DA35 /* ViewController.swift in Sources */,
+				B4348BC82D5713180097DA35 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4348BCE2D5713180097DA35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4348BEF2D5713180097DA35 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4348BD82D5713180097DA35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4348BF02D5713180097DA35 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4348BD52D5713180097DA35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4348BD12D5713180097DA35 /* My Safari Extension Extension (iOS) */;
+			targetProxy = B4348BD42D5713180097DA35 /* PBXContainerItemProxy */;
+		};
+		B4348BDF2D5713180097DA35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4348BDB2D5713180097DA35 /* My Safari Extension Extension (macOS) */;
+			targetProxy = B4348BDE2D5713180097DA35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4348BA62D5713140097DA35 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4348BA72D5713140097DA35 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		B4348BBA2D5713180097DA35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4348BBB2D5713180097DA35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B4348BBD2D5713180097DA35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4348BBE2D5713180097DA35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4348BC92D5713180097DA35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4348BCA2D5713180097DA35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4348BF12D5713180097DA35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4348BF22D5713180097DA35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B4348BF42D5713180097DA35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "My Safari Extension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.My-Safari-Extension.Extension";
+				PRODUCT_NAME = "My Safari Extension Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4348BF52D5713180097DA35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "My Safari Extension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.My-Safari-Extension.Extension";
+				PRODUCT_NAME = "My Safari Extension Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4348BF82D5713180097DA35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "My Safari Extension";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.My-Safari-Extension";
+				PRODUCT_NAME = "My Safari Extension";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4348BF92D5713180097DA35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "My Safari Extension";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.My-Safari-Extension";
+				PRODUCT_NAME = "My Safari Extension";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4348BFB2D5713180097DA35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/My Safari Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "My Safari Extension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.My-Safari-Extension.Extension";
+				PRODUCT_NAME = "My Safari Extension Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B4348BFC2D5713180097DA35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/My Safari Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "My Safari Extension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.My-Safari-Extension.Extension";
+				PRODUCT_NAME = "My Safari Extension Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B4348BFF2D5713180097DA35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/My Safari Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "My Safari Extension";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.My-Safari-Extension";
+				PRODUCT_NAME = "My Safari Extension";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B4348C002D5713180097DA35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/My Safari Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "My Safari Extension";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.My-Safari-Extension";
+				PRODUCT_NAME = "My Safari Extension";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4348BA32D5713140097DA35 /* Build configuration list for PBXProject "My Safari Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4348BF12D5713180097DA35 /* Debug */,
+				B4348BF22D5713180097DA35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4348BF32D5713180097DA35 /* Build configuration list for PBXNativeTarget "My Safari Extension Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4348BF42D5713180097DA35 /* Debug */,
+				B4348BF52D5713180097DA35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4348BF72D5713180097DA35 /* Build configuration list for PBXNativeTarget "My Safari Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4348BF82D5713180097DA35 /* Debug */,
+				B4348BF92D5713180097DA35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4348BFA2D5713180097DA35 /* Build configuration list for PBXNativeTarget "My Safari Extension Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4348BFB2D5713180097DA35 /* Debug */,
+				B4348BFC2D5713180097DA35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4348BFE2D5713180097DA35 /* Build configuration list for PBXNativeTarget "My Safari Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4348BFF2D5713180097DA35 /* Debug */,
+				B4348C002D5713180097DA35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4348BA02D5713140097DA35 /* Project object */;
+}

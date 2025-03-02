@@ -1,15 +1,16 @@
 (async () => {
-    const apiKey = 'YOUR_OPENAI_API_KEY';
+    // Define the model directly for testing
+    const model = window.env?.OPENAI_MODEL || 'gpt-3.5-turbo'; // Fallback to a default model
     const url = window.location.href;
     const content = document.body.innerText;
 
-    const response = await fetch('https://api.openai.com/v1/engines/davinci-codex/completions', {
+    const response = await fetch('http://localhost:3000/api', {
         method: 'POST',
         headers: {
-            'Content-Type': 'application/json',
-            'Authorization': `Bearer ${apiKey}`
+            'Content-Type': 'application/json'
         },
         body: JSON.stringify({
+            model: model,
             prompt: `Summarize the following content: ${content}`,
             max_tokens: 150
         })
@@ -26,5 +27,5 @@
         chrome.runtime.sendMessage({ summary });
     } else {
         alert(`Summary: ${summary}`);
-        }
+    }
 })();
